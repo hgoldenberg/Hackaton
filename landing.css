@@ -1,0 +1,187 @@
+.image {
+  height: 55px;
+  margin: 40px;
+  margin-top: -15px;
+  padding-left: 80px;
+}
+
+.navbar {
+  position: relative;
+  min-height: 60px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+.navbar-right {
+  float: right !important;
+  margin-right: 50px;
+}
+
+#isologo {
+  margin-left:-50px;
+
+}
+
+#imagen_principal {
+  width: 100%;
+
+}
+
+#imagen_google {
+  width: 100%;
+  height: 40%;
+  padding-top: 15px;
+
+}
+
+#imagen_apple {
+  width: 100%;
+  height: 40%;
+
+  /*margin-top: -12px;*/
+}
+
+
+
+#comprar {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.imagenes_footer {
+  width: 50%;
+  height: 25%;
+  margin-left: 70px;
+  padding-top: 15px;
+}
+
+#row_1 {
+  background-color: #007FFF;
+  padding: 20px;
+}
+
+.p_row_1 {
+  color: white;
+  margin:0 auto;
+}
+
+.footer {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+#copy {
+  text-align: left;
+}
+
+
+.panel-default {
+  border-color: transparent ;
+}
+
+
+
+/*@media (max-width: 768px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+
+}*/
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .imagenes_footer {
+    width:100%;
+    max-width:200px;
+    margin-left: 250px;
+}
+    #imagen_apple {
+      width:100%;
+      max-width:250px;
+      margin-left: 200px;
+    }
+    #imagen_google {
+      width:100%;
+      max-width:250px;
+      margin-left: 200px;
+    }
+
+    p {
+      font-size: 200%;
+      margin-left: 25%;
+    }
+
+
+    }
+
+
+
+@media (min-width:482px) and (max-width:992px) {
+  #imagen_apple {
+    width:50%;
+    max-height:50%;
+    margin-left: 25%;
+  }
+  #imagen_google {
+    width:50%;
+    max-height:50%;
+    margin-left: 25%;
+  }
+  .imagenes_footer {
+  width:40%;
+  max-height:40%;
+  margin-left: 25%;
+}
+p {
+  font-size: 200%;
+  margin-left: 25%;
+}
+}
+
+#encabezado {
+  margin-bottom: 0px;
+}
+
+#final {
+  padding-top: 0;
+}
+
+.fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
